@@ -35,3 +35,17 @@ function moveToPrevSlide() {
     }
     slides[slidePosition].classList.add("carousel-item-visible");
 }
+
+// module popup
+
+// Book Now Open
+document.querySelector('.booknow').addEventListener("click", function() {
+    document.getElementById('modal').style.display = "block";
+    document.querySelector('.first-container').style.background = "none";
+})
+
+// Close Modal
+document.getElementById("close-modal").addEventListener("click", function() {
+    document.getElementById('modal').style.display = "none";
+    document.querySelector('.main-container').style.background = "#FFE8D6";
+})
