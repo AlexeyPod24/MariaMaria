@@ -10,7 +10,7 @@
    display: flex;
    justify-content: center;
     }
-   
+
    .main-container {
    margin: 0 auto;
    width: 400px;
@@ -30,7 +30,7 @@
    }
    
    #logo {
-       margin-right: 260px;
+       margin-right: 250px;
    }
    
    
@@ -207,7 +207,7 @@
        justify-content: flex-start;
        width: 100%;
        height: auto;
-       margin-left: 50px;
+       
    }
    
    .fishes2 {
